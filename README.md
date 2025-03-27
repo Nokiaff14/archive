@@ -1,2 +1,2 @@
-# FreePixelArt
-© 2025 FreePixelArt.
+# archive
+© 2025 archive.
