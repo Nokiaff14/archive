@@ -1,0 +1,13 @@
+water + water = lake
+lake + lake = ocean
+ocean + ocean = sea
+sea + earth = island
+island + water = ship
+ship + fire = cannon
+cannon + cannon = cannonball
+fire + fire = volcano
+volcano + volcano = mountain
+mountain + mountain = mountain range
+wind + wind = tornado
+tornado + tornado = hurricane
+water + fire = steam
