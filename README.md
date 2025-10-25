@@ -8,3 +8,5 @@ i write various scripts, i used termux, now i moved to linux and writing bash sc
 <:
 
 everything in this repository cant be copied or edited, suggest what i can change or create if you want
+
+naramoAFK.sh is for naramo roblox game
