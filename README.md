@@ -1,4 +1,6 @@
 # archive
 © 2025 archive.
 
-I don't know what to write here, I use it for some useless trifles. Maybe in the future I'll add scripts for games (from different source and mixed) or something like that for free use.
+i write various scripts, i used termux, now i moved to linux and writing bash scripts for games or automation
+
+everything in this repository cant be copied or edited, suggest what i can change or create if you want
