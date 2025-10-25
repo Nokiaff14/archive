@@ -1,19 +1,19 @@
 #!/usr/bin/bash
--- version 2
+-- version 3
 -- dont use, very unstable, tbh nobody sees that but still
 
 function wait_for_click(label)
     print(label .. " (click anywhere...)")
-    os.execute("xdotool click 1")
+    os.execute("xinput test-xi2 --root | grep --line-buffered 'ButtonPress' -m 1 > /tmp/click_detected")
     os.execute("sleep 0.2")
     os.execute("xdotool getmouselocation --shell > /tmp/pos")
     local x, y = 0, 0
     for line in io.lines("/tmp/pos") do
         if line:match("^X=") then x = line:match("X=(%d+)") end
-        if line:match("^Y=") then x = line:match("Y=(%d+)") end
+        if line:match("^Y=") then Y = line:match("Y=(%d+)") end
     end
-    print("captured position: x=" .. x .. " y" .. y)
-    return x, Y
+    print("captured position: x=" .. x .. " y=" .. y)
+    return x, y
 end
 
 screen_click_1 = "select area"
